@@ -5,6 +5,8 @@
     gap: 80px;
     position: relative;
     background-color: #ffffff;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .PC-top .frame {
@@ -110,6 +112,7 @@
     height: 1270px;
     top: 545px;
     right: -635px;
+    overflow-x: hidden;
 }
 
 .PC-top .frame-3 {
@@ -121,10 +124,11 @@
     position: absolute;
     top: 484px;
     left: 40px;
-    maegin-right: 40px; 
+    margin-right: 40px; 
     background-color: #ffffff;
     border-radius: 64px;
     box-shadow: var(--box-shadow);
+    overflow-x: hidden;
 }
 
 .PC-top .div-2 {
@@ -133,7 +137,12 @@
     align-items: flex-start;
     gap: 8px;
     position: relative;
-    flex: 0 0 auto;
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 100%;
+    width: auto;
+    overflow: hidden;
+    min-width: 0;
 }
 
 .PC-top .frame-4 {
@@ -181,15 +190,18 @@
 .PC-top .overlap {
     position: relative;
     height: 811px;
+    width: 100%;
+    max-width: 1200px;
     top: -1px;
     align-items: center;
+    margin: auto;
 }
 
 .PC-top .text-wrapper-5 {
     position: absolute;
     height: 240px;
     top: 0;
-    left: 179px;
+    right: 0px;
     opacity: 0.2;
     font-family: "Noto Sans JP-Bold", Helvetica;
     font-weight: 700;
@@ -360,13 +372,15 @@
     position: relative;
     height: 741px;
     top: -1px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .PC-top .text-wrapper-7 {
     position: absolute;
     height: 240px;
     top: 0;
-    left: 703px;
+    right: 0px;
     opacity: 0.2;
     font-family: "Noto Sans JP-Bold", Helvetica;
     font-weight: 700;
@@ -595,21 +609,24 @@
     flex: 0 0 auto;
     max-width: 1240px;
     width: 100%;
+    margin: auto;
 }
 
 .PC-top .frame-17 {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
     max-width: 1240px;
     width: 100%;
     align-items: flex-start;
     gap: 64px;
     position: relative;
-    flex: 0 0 auto;
+    flex: 1 1 auto;
 }
 
 .PC-top .img-2 {
     max-width: 648px;
-    width: 100%;
+    width: 50%;
     margin-top: -8.00px;
     margin-bottom: -8.00px;
     position: relative;
@@ -618,18 +635,22 @@
 }
 
 .PC-top .frame-18 {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-grow: 1; 
+    min-width: 300px;
     gap: 32px;
     padding: 64px 0px;
     position: relative;
-    flex: 0 0 auto;
+    overflow: hidden; 
+    flex-shrink: 1; 
 }
 
 .PC-top .text-wrapper-11 {
     position: relative;
-    width: 480px;
+    max-width: 648px;
+    width: 100%;
     font-family: var(--text-noto-sans-JP-size16-150-font-family);
     font-weight: var(--text-noto-sans-JP-size16-150-font-weight);
     color: var(--colorbk);
@@ -665,13 +686,16 @@
     position: relative;
     height: 723px;
     top: -1px;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .PC-top .text-wrapper-12 {
     position: absolute;
     height: 240px;
     top: 0;
-    left: 657px;
+    right: 0px;
     opacity: 0.2;
     color: var(--colorpreludebasic);
     font-size: 240px;
@@ -870,7 +894,6 @@
 
 .PC-top .frame-31 {
     position: relative;
-    max-width: 1280px;
     width: 100%;
     height: 488px;
     margin: auto;
@@ -889,12 +912,13 @@
     align-items: center;
     gap: 64px;
     padding: 64px 40px;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     background-image: url(./img/01.png);
     background-size: cover;
     background-position: 50% 50%;
+    margin: auto;
 }
 
 .PC-top .frame-32 {
@@ -961,8 +985,8 @@
     position: absolute;
     width: 245px;
     height: 411px;
-    top: 142px;
-    left: 880px;
+    top: 42px;
+    right: -130px;
     object-fit: cover;
 }
 
@@ -984,10 +1008,11 @@
 
 .PC-top .element-3 {
     position: absolute;
-    width: 972px;
-    height: 441px;
+    width: 75%;
+    height: auto;
     top: 0;
     left: 42px;
+    bottom: -202px;
     margin: auto;
 }
 
