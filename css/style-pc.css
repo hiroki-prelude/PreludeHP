@@ -1,4 +1,4 @@
-.PC-top {
+.top {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     overflow-x: hidden;
 }
 
-.PC-top .frame {
+.top .frame {
     position: relative;
     width: 100%;
     max-width: 1920px;
@@ -17,12 +17,12 @@
     
 }
 
-.PC-top .overlap-group {
+.top .overlap-group {
     position: relative;
     height: 1815px;
 }
 
-.PC-top .pixta {
+.top .pixta {
     position: absolute;
     width: 100%;
     height: 832px;
@@ -31,7 +31,7 @@
     object-fit: cover;
 }
 
-.PC-top .PC-header {
+.top .PC-header {
     position: absolute;
     width: 100%;
     max-width: 1920px;
@@ -39,7 +39,7 @@
     top: 40px;
 }
 
-.PC-top .div {
+.top .div {
     display: flex;
     width: 100%;
     max-width: 1920px;
@@ -53,13 +53,13 @@
     box-shadow: var(--box-shadow);
 }
 
-.PC-top .logo {
+.top .logo {
     position: relative;
     width: 133.33px;
     height: 48px;
 }
 
-.PC-top .frame-2 {
+.top .frame-2 {
     display: inline-flex;
     align-items: center;
     gap: 32px;
@@ -67,7 +67,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .text-wrapper {
+.top .text-wrapper {
     position: relative;
     width: fit-content;
     font-family: var(--text-noto-sans-JP-size18-100-bold-font-family);
@@ -80,7 +80,7 @@
     font-style: var(--text-noto-sans-JP-size18-100-bold-font-style);
 }
 
-.PC-top .div-wrapper {
+.top .div-wrapper {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +92,7 @@
     border-radius: 999px;
 }
 
-.PC-top .text-wrapper-2 {
+.top .text-wrapper-2 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -106,7 +106,7 @@
     font-style: var(--text-noto-sans-JP-size16-100-font-style);
 }
 
-.PC-top .element {
+.top .element {
     position: absolute;
     width: 1270px;
     height: 1270px;
@@ -115,7 +115,7 @@
     overflow-x: hidden;
 }
 
-.PC-top .frame-3 {
+.top .frame-3 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -131,7 +131,7 @@
     overflow-x: hidden;
 }
 
-.PC-top .div-2 {
+.top .div-2 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -145,7 +145,7 @@
     min-width: 0;
 }
 
-.PC-top .frame-4 {
+.top .frame-4 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -154,7 +154,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .text-wrapper-3 {
+.top .text-wrapper-3 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -167,7 +167,7 @@
     white-space: nowrap;
 }
 
-.PC-top .text-wrapper-4 {
+.top .text-wrapper-4 {
     position: relative;
     align-self: stretch;
     font-family: var(--text-noto-sans-JP-size16-150-font-family);
@@ -179,7 +179,7 @@
     font-style: var(--text-noto-sans-JP-size16-150-font-style);
 }
 
-.PC-top .overlap-wrapper {
+.top .overlap-wrapper {
     position: relative;
     width: 100%;
     max-width: 1920px;
@@ -187,7 +187,7 @@
     align-items: center;
 }
 
-.PC-top .overlap {
+.top .overlap {
     position: relative;
     height: 811px;
     width: 100%;
@@ -197,7 +197,7 @@
     margin: auto;
 }
 
-.PC-top .text-wrapper-5 {
+.top .text-wrapper-5 {
     position: absolute;
     height: 240px;
     top: 0;
@@ -213,7 +213,7 @@
     white-space: nowrap;
 }
 
-.PC-top .frame-5 {
+.top .frame-5 {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -225,7 +225,7 @@
     margin: auto;
 }
 
-.PC-top .PC {
+.top .PC {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -236,7 +236,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .heading {
+.top .heading {
     position: relative;
     width: fit-content;
     font-family: var(--text-noto-sans-JP-size18-100-bold-font-family);
@@ -249,7 +249,7 @@
     font-style: var(--text-noto-sans-JP-size18-100-bold-font-style);
 }
 
-.PC-top .frame-6 {
+.top .frame-6 {
     display: flex;
     align-items: flex-start;
     gap: 32px;
@@ -259,7 +259,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-7 {
+.top .frame-7 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,7 +278,7 @@
     
 }
 
-.PC-top .rectangle-wrapper {
+.top .rectangle-wrapper {
     display: flex;
     height: 240px;
     align-items: center;
@@ -288,7 +288,7 @@
     max-width: 100%;
 }
 
-.PC-top .rectangle {
+.top .rectangle {
     position: relative;
     flex: 1;
     align-self: stretch;
@@ -298,7 +298,7 @@
     border-radius: 28px 28px 0px 0px;
 }
 
-.PC-top .frame-8 {
+.top .frame-8 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -311,7 +311,7 @@
     min-height: 159px;
 }
 
-.PC-top .text-wrapper-6 {
+.top .text-wrapper-6 {
     position: relative;
     align-self: stretch;
     margin-top: -1.00px;
@@ -324,7 +324,7 @@
     font-style: var(--text-noto-sans-JP-size24-100-bold-font-style);
 }
 
-.PC-top .link-button {
+.top .link-button {
     all: unset;
     box-sizing: border-box;
     display: inline-flex;
@@ -339,7 +339,7 @@
     box-shadow: 0px 4px 0px #333333;
 }
 
-.PC-top .button {
+.top .button {
     all: unset;
     box-sizing: border-box;
     position: relative;
@@ -354,12 +354,12 @@
     font-style: var(--text-noto-sans-JP-size18-100-bold-font-style);
 }
 
-.PC-top .img {
+.top .img {
     position: relative;
     flex: 0 0 auto;
 }
 
-.PC-top .overlap-group-wrapper {
+.top .overlap-group-wrapper {
     position: relative;
     width: 100%;
     max-width: 1920px;
@@ -368,7 +368,7 @@
     background-color: var(--colorultra-light-gray);
 }
 
-.PC-top .overlap-2 {
+.top .overlap-2 {
     position: relative;
     height: 741px;
     top: -1px;
@@ -376,7 +376,7 @@
     margin: auto;
 }
 
-.PC-top .text-wrapper-7 {
+.top .text-wrapper-7 {
     position: absolute;
     height: 240px;
     top: 0;
@@ -392,7 +392,7 @@
     white-space: nowrap;
 }
 
-.PC-top .frame-9 {
+.top .frame-9 {
     display: flex;
     flex-direction: column;
     max-width: 1280px;
@@ -405,7 +405,7 @@
     margin: auto;
 }
 
-.PC-top .frame-10 {
+.top .frame-10 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -416,7 +416,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-11 {
+.top .frame-11 {
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
@@ -425,7 +425,7 @@
     margin: auto;
 }
 
-.PC-top .view {
+.top .view {
     align-self: stretch;
     display: flex;
     flex-direction: column;
@@ -439,7 +439,7 @@
     border-color: var(--colorpreludelight);
 }
 
-.PC-top .image {
+.top .image {
     width: 100%;
     height: 240px;
     position: relative;
@@ -449,7 +449,7 @@
     border-radius: 28px 28px 0px 0px;
 }
 
-.PC-top .frame-12 {
+.top .frame-12 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -471,7 +471,7 @@
     border-color: var(--colorpreludelight);
 }
 
-.PC-top .text-wrapper-8 {
+.top .text-wrapper-8 {
     margin-top: -3.00px;
     color: var(--colorbk);
     letter-spacing: 0;
@@ -484,7 +484,7 @@
     white-space: nowrap;
 }
 
-.PC-top .text-wrapper-9 {
+.top .text-wrapper-9 {
     position: relative;
     align-self: stretch;
     font-family: var(--text-noto-sans-JP-size16-150-bold-font-family);
@@ -496,7 +496,7 @@
     font-style: var(--text-noto-sans-JP-size16-150-bold-font-style);
 }
 
-.PC-top .frame-13 {
+.top .frame-13 {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -507,7 +507,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-14 {
+.top .frame-14 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -516,7 +516,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .text-wrapper-10 {
+.top .text-wrapper-10 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -529,7 +529,7 @@
     white-space: nowrap;
 }
 
-.PC-top .view-2 {
+.top .view-2 {
     display: flex;
     flex-direction: column;
     width: 320px;
@@ -538,7 +538,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.PC-top .frame-15 {
+.top .frame-15 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -559,7 +559,7 @@
     border-color: var(--colorpreludelight);
 }
 
-.PC-top .frame-16 {
+.top .frame-16 {
     display: flex;
     width: 1201px;
     align-items: flex-start;
@@ -569,19 +569,19 @@
     flex: 0 0 auto;
 }
 
-.PC-top .group {
+.top .group {
     position: relative;
     width: 16px;
     height: 16px;
 }
 
-.PC-top .ellipse-wrapper {
+.top .ellipse-wrapper {
     height: 16px;
     background-color: var(--colorlight-gray);
     border-radius: 8px;
 }
 
-.PC-top .ellipse {
+.top .ellipse {
     position: relative;
     width: 10px;
     height: 10px;
@@ -591,7 +591,7 @@
     border-radius: 5px;
 }
 
-.PC-top .ellipse-2 {
+.top .ellipse-2 {
     position: relative;
     width: 16px;
     height: 16px;
@@ -599,7 +599,7 @@
     border-radius: 8px;
 }
 
-.PC-top .frame-wrapper {
+.top .frame-wrapper {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -612,7 +612,7 @@
     margin: auto;
 }
 
-.PC-top .frame-17 {
+.top .frame-17 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between; 
@@ -624,7 +624,7 @@
     flex: 1 1 auto;
 }
 
-.PC-top .img-2 {
+.top .img-2 {
     max-width: 648px;
     width: 50%;
     margin-top: -8.00px;
@@ -634,7 +634,7 @@
     object-fit: cover;
 }
 
-.PC-top .frame-18 {
+.top .frame-18 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -647,7 +647,7 @@
     flex-shrink: 1; 
 }
 
-.PC-top .text-wrapper-11 {
+.top .text-wrapper-11 {
     position: relative;
     max-width: 648px;
     width: 100%;
@@ -660,7 +660,7 @@
     font-style: var(--text-noto-sans-JP-size16-150-font-style);
 }
 
-.PC-top .frame-19 {
+.top .frame-19 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -672,7 +672,7 @@
     width: 100%;
 }
 
-.PC-top .frame-20 {
+.top .frame-20 {
     display: flex;
     max-width: 1240px;
     width: 100%;
@@ -682,7 +682,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .overlap-3 {
+.top .overlap-3 {
     position: relative;
     height: 723px;
     top: -1px;
@@ -691,7 +691,7 @@
     margin: auto;
 }
 
-.PC-top .text-wrapper-12 {
+.top .text-wrapper-12 {
     position: absolute;
     height: 240px;
     top: 0;
@@ -707,7 +707,7 @@
     white-space: nowrap;
 }
 
-.PC-top .frame-21 {
+.top .frame-21 {
     display: flex;
     flex-direction: column;
     max-width: 1280px;
@@ -720,7 +720,7 @@
     margin: auto;
 }
 
-.PC-top .frame-22 {
+.top .frame-22 {
     display: flex;
     width: 1200px;
     align-items: flex-start;
@@ -731,7 +731,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-23 {
+.top .frame-23 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -745,7 +745,7 @@
     border-color: var(--colorgray);
 }
 
-.PC-top .frame-24 {
+.top .frame-24 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -758,7 +758,7 @@
     box-shadow: 0px 4px 0px #333333;
 }
 
-.PC-top .text-wrapper-13 {
+.top .text-wrapper-13 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -772,7 +772,7 @@
     font-style: var(--text-noto-sans-JP-size12-100-bold-font-style);
 }
 
-.PC-top .frame-25 {
+.top .frame-25 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -787,7 +787,7 @@
     box-shadow: 0px 4px 0px #333333;
 }
 
-.PC-top .text-wrapper-14 {
+.top .text-wrapper-14 {
     position: relative;
     width: fit-content;
     margin-top: -2.00px;
@@ -801,7 +801,7 @@
     font-style: var(--text-noto-sans-JP-size12-100-bold-font-style);
 }
 
-.PC-top .frame-26 {
+.top .frame-26 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -810,7 +810,7 @@
     flex-grow: 1;
 }
 
-.PC-top .frame-27 {
+.top .frame-27 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -820,7 +820,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-28 {
+.top .frame-28 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -834,7 +834,7 @@
     border-color: var(--colorgray);
 }
 
-.PC-top .frame-29 {
+.top .frame-29 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -845,7 +845,7 @@
     flex-grow: 1;
 }
 
-.PC-top .frame-30 {
+.top .frame-30 {
     display: inline-flex;
     align-items: center;
     gap: 20px;
@@ -853,7 +853,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .text-wrapper-15 {
+.top .text-wrapper-15 {
     color: var(--colorgray);
     letter-spacing: var(--text-noto-sans-JP-size12-100-letter-spacing);
     position: relative;
@@ -866,7 +866,7 @@
     font-style: var(--text-noto-sans-JP-size12-100-font-style);
 }
 
-.PC-top .text-wrapper-16 {
+.top .text-wrapper-16 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -880,7 +880,7 @@
     font-style: var(--text-noto-sans-JP-size14-100-bold-font-style);
 }
 
-.PC-top .text-wrapper-17 {
+.top .text-wrapper-17 {
     position: relative;
     align-self: stretch;
     font-family: var(--text-noto-sans-JP-size16-150-bold-font-family);
@@ -892,19 +892,19 @@
     font-style: var(--text-noto-sans-JP-size16-150-bold-font-style);
 }
 
-.PC-top .frame-31 {
+.top .frame-31 {
     position: relative;
     width: 100%;
     height: 488px;
     margin: auto;
 }
 
-.PC-top .overlap-4 {
+.top .overlap-4 {
     position: relative;
     height: 553px;
 }
 
-.PC-top .PC-2 {
+.top .PC-2 {
     display: flex;
     flex-direction: column;
     max-width: 1280px;
@@ -921,7 +921,7 @@
     margin: auto;
 }
 
-.PC-top .frame-32 {
+.top .frame-32 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -933,7 +933,7 @@
     border-radius: 24px;
 }
 
-.PC-top .text-wrapper-18 {
+.top .text-wrapper-18 {
     margin-top: -1.00px;
     background: linear-gradient(
         180deg,
@@ -956,7 +956,7 @@
     font-style: var(--text-noto-sans-JP-size48-130-font-style);
 }
 
-.PC-top .heading-2 {
+.top .heading-2 {
     position: relative;
     width: fit-content;
     font-family: var(--text-noto-sans-JP-size18-100-font-family);
@@ -969,7 +969,7 @@
     font-style: var(--text-noto-sans-JP-size18-100-font-style);
 }
 
-.PC-top .text-wrapper-19 {
+.top .text-wrapper-19 {
     position: relative;
     width: 594px;
     font-family: var(--text-noto-sans-JP-size16-150-font-family);
@@ -981,7 +981,7 @@
     font-style: var(--text-noto-sans-JP-size16-150-font-style);
 }
 
-.PC-top .element-2 {
+.top .element-2 {
     position: absolute;
     width: 245px;
     height: 411px;
@@ -990,7 +990,7 @@
     object-fit: cover;
 }
 
-.PC-top .frame-33 {
+.top .frame-33 {
     position: relative;
     width: 100%;
     max-width: 1920px;
@@ -1000,13 +1000,13 @@
     overflow: hidden;
 }
 
-.PC-top .overlap-5 {
+.top .overlap-5 {
     position: relative;
     height: 441px;
     border-radius: 64px 64px 0px 0px;
 }
 
-.PC-top .element-3 {
+.top .element-3 {
     position: absolute;
     width: 75%;
     height: auto;
@@ -1016,7 +1016,7 @@
     margin: auto;
 }
 
-.PC-top .frame-34 {
+.top .frame-34 {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -1030,7 +1030,7 @@
     margin: auto;
 }
 
-.PC-top .frame-35 {
+.top .frame-35 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1040,7 +1040,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-36 {
+.top .frame-36 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1053,7 +1053,7 @@
     border-color: var(--colorbk);
 }
 
-.PC-top .text-wrapper-20 {
+.top .text-wrapper-20 {
     position: relative;
     width: fit-content;
     margin-top: -2.00px;
@@ -1067,7 +1067,7 @@
     font-style: var(--text-noto-sans-JP-size18-100-bold-font-style);
 }
 
-.PC-top .frame-37 {
+.top .frame-37 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1078,7 +1078,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .element-f {
+.top .element-f {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -1091,7 +1091,7 @@
     font-style: var(--text-noto-sans-JP-size14-150-font-style);
 }
 
-.PC-top .frame-38 {
+.top .frame-38 {
     display: inline-flex;
     align-items: flex-start;
     gap: 8px;
@@ -1103,13 +1103,13 @@
     border-color: var(--colorbk);
 }
 
-.PC-top .img-3 {
+.top .img-3 {
     position: relative;
     width: 24px;
     height: 24px;
 }
 
-.PC-top .text-wrapper-21 {
+.top .text-wrapper-21 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -1123,7 +1123,7 @@
     font-style: var(--text-noto-sans-JP-size14-150-font-style);
 }
 
-.PC-top .text-wrapper-22 {
+.top .text-wrapper-22 {
     position: relative;
     width: fit-content;
     font-family: var(--text-noto-sans-JP-size14-150-link-font-family);
@@ -1137,7 +1137,7 @@
     font-style: var(--text-noto-sans-JP-size14-150-link-font-style);
 }
 
-.PC-top .frame-39 {
+.top .frame-39 {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -1147,7 +1147,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-40 {
+.top .frame-40 {
     display: inline-flex;
     align-items: center;
     gap: 24px;
@@ -1155,7 +1155,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .frame-41 {
+.top .frame-41 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1167,7 +1167,7 @@
     border-radius: 24px;
 }
 
-.PC-top .text-wrapper-23 {
+.top .text-wrapper-23 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -1181,7 +1181,7 @@
     font-style: var(--text-noto-sans-JP-size14-150-bold-font-style);
 }
 
-.PC-top .frame-42 {
+.top .frame-42 {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -1189,7 +1189,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .text-wrapper-24 {
+.top .text-wrapper-24 {
     position: relative;
     width: fit-content;
     margin-top: -1.00px;
@@ -1203,7 +1203,7 @@
     font-style: var(--text-noto-sans-JP-size18-150-bold-font-style);
 }
 
-.PC-top .text-wrapper-25 {
+.top .text-wrapper-25 {
     position: relative;
     align-self: stretch;
     margin-top: -1.00px;
@@ -1216,7 +1216,7 @@
     font-style: var(--text-noto-sans-JP-size14-150-bold-font-style);
 }
 
-.PC-top .frame-43 {
+.top .frame-43 {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -1226,7 +1226,7 @@
     flex: 0 0 auto;
 }
 
-.PC-top .text-wrapper-26 {
+.top .text-wrapper-26 {
     position: relative;
     width: fit-content;
     font-family: var(--text-noto-sans-JP-size12-100-font-family);
